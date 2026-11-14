@@ -38,7 +38,7 @@ Nome da conta, identificador e moeda
 - Valor e moeda devem ser exibidos com centavos exatos. A apresentação deve distinguir zero, carregamento, erro e valor desatualizado.
 - Se a transferência confirmar e a atualização do saldo falhar, a confirmação continua válida. A pessoa pode atualizar o saldo novamente sem reenviar a transferência.
 - Ao trocar de conta, o saldo anterior não deve ser apresentado como se fosse da nova conta. Se houver valor anterior para a própria conta durante falha, ele deve ser identificado como desatualizado.
-- Durante a [recuperação do ambiente](../operacao/validar-recuperacao.md), o Ledger mostra até que horário o saldo foi conferido. Por exemplo, se o último saldo verificado de A for R&#36; 75,00 às 10:00 UTC, a consulta mostra o valor com o horário e avisa que ele pode estar desatualizado. Se a equipe ainda estiver conferindo o saldo ou quem tem acesso à conta, a consulta fica indisponível.
+- Durante a [recuperação do ambiente](../operacao/validar-recuperacao.md), o Ledger mostra até que horário o saldo foi conferido. Por exemplo, se o último saldo verificado de A for R&#36; 75,00 às 10:00 UTC, a consulta mostra o valor com o horário e avisa que ele pode estar desatualizado. Se o responsável ainda estiver conferindo o saldo ou a titularidade, a consulta fica indisponível. A [referência da API](../api/index.md#cobertura-do-saldo-e-do-extrato) define como o horário de conferência aparece no JSON.
 
 ## 5. Resultados
 

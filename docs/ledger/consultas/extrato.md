@@ -47,7 +47,7 @@ Cada lançamento apresenta instante de confirmação, tipo de movimento, sentido
 
 - A soma do período deve representar a variação no intervalo. O saldo atual pode incluir movimentos anteriores ou posteriores ao período. A conferência do saldo usa o histórico completo até o instante considerado. A [conciliação](../operacao/conciliar.md) deve comparar saldo e extrato sobre o mesmo conjunto de movimentações confirmadas.
 - Entrada e saída devem ser distinguíveis pela indicação de sentido e pelo valor. Estorno deve aparecer como movimento separado. O lançamento original deve continuar disponível.
-- Depois de um [restore](../operacao/validar-recuperacao.md), o extrato só exibe lançamentos do período já conferido. Por exemplo, se a equipe conferiu a conta de Ana até 10:00 UTC, uma consulta de 09:00 a 11:00 mostra os lançamentos conferidos até 10:00 e avisa que o restante está em análise. Se Ana pedir apenas 10:30 a 11:00, o extrato informa indisponibilidade.
+- Depois de um [restore](../operacao/validar-recuperacao.md), o extrato só exibe lançamentos do período já conferido. Por exemplo, se o responsável conferiu a conta de Ana até 10:00 UTC, uma consulta de 09:00 a 11:00 mostra os lançamentos conferidos até 10:00 e avisa que o restante está em análise. Se Ana pedir apenas 10:30 a 11:00, o extrato informa indisponibilidade. A [referência da API](../api/index.md#cobertura-do-saldo-e-do-extrato) define os campos de cobertura e o intervalo usado na paginação.
 
 ## 5. Resultados
 

@@ -33,7 +33,7 @@ Identificador e instante de confirmação
 
 ### 4.2 Apresentar os dados da movimentação
 
-O comprovante apresento ID da movimentação, tipo, ID da conta consultada, sentido do lançamento, valor em BRL e instante de confirmação. O valor aparece como número positivo. O campo **Sentido** indica entrada ou saída.
+O comprovante apresenta o ID da movimentação, tipo, ID da conta consultada, sentido do lançamento, valor em BRL e instante de confirmação. O valor aparece como número positivo. O campo **Sentido** indica entrada ou saída.
 
 | Movimento | Conta consultada | Informação adicional disponível |
 | --- | --- | --- |
@@ -42,7 +42,7 @@ O comprovante apresento ID da movimentação, tipo, ID da conta consultada, sent
 | Crédito de teste | Conta que recebeu o valor | Exibe **Crédito de teste** e omite o ID da funding account. |
 | Estorno | Conta comum que recebeu ou devolveu o valor | O comprovante apresenta o ID da transferência original e o efeito do estorno na conta consultada. |
 
-Nome, titular, saldo e extrato da contraparte ficam fora do comprovante comum. O motivo do estorno e o identificador do operador ficam na auditoria. O comprovante de estorno não apresenta identificador da contraparte.
+O [contrato do comprovante](../api/index.md#listagem-e-comprovante) especifica em quais respostas os campos `counterpartyAccountId` e `originalTransactionId` aparecem. Nome, titular, saldo e extrato da contraparte ficam fora do comprovante comum. O motivo do estorno e o identificador do operador ficam na auditoria. O comprovante de estorno não apresenta identificador da contraparte.
 
 ### 4.3 Consultar novamente
 
