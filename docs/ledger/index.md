@@ -19,3 +19,5 @@ O Ledger registra movimentações financeiras simuladas entre contas internas em
 ## 2. Regras gerais
 
 A seção [Geral](geral/index.md) reúne o glossário e os resultados das ações. As fontes consultadas estão em [Referências](geral/referencias.md).
+
+Os endpoints, schemas previstos e exemplos de requisição estão na [referência da API](api/index.md).

@@ -8,6 +8,7 @@ const category = (label, id, items) => ({
 export default {
   ledger: [
     'ledger/index',
+    {type: 'doc', id: 'ledger/api/index', label: 'API'},
     category('Geral', 'ledger/geral/index', [
       'ledger/geral/glossario',
       'ledger/geral/resultados-das-acoes',

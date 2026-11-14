@@ -20,6 +20,6 @@ Nas chamadas pela API, o ID da requisição permite localizar o evento. O ID da 
 
 ## Permissão para consultar a auditoria
 
-A consulta exige permissão de auditoria no ambiente. Secrets, tokens, valores de `Idempotency-Key` e o corpo completo da requisição ficam fora dos registros. Se a titularidade mudar, a auditoria preserva o usuário que executou cada ação.
+A consulta exige permissão de auditoria no ambiente. Secrets, tokens, valores de `Idempotency-Key` e o request body ficam fora dos registros. Se a titularidade mudar, a auditoria preserva o usuário que executou cada ação.
 
 Se Ana perder a resposta depois de confirmar a transferência, a auditoria ainda mostra a confirmação. Por exemplo, o evento da requisição `req-0082` aponta para a movimentação `tx-001`. Se Bruno assumir a titularidade de uma conta após uma atribuição, os eventos anteriores continuam associados a quem os executou. Se a equipe ainda não consegue determinar o resultado após um restore, a tentativa permanece em conferência conforme as [regras de recuperação](validar-recuperacao.md).
