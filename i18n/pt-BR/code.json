@@ -1,0 +1,23 @@
+{
+  "theme.SearchBar.label": {
+    "message": "Buscar na documentação"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "Ver todos os resultados"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "Nenhum resultado encontrado"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Buscar na documentação"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Resultados para \"{query}\""
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "1 documento encontrado|{count} documentos encontrados"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "Nenhum documento encontrado"
+  }
+}

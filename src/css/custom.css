@@ -1,0 +1,46 @@
+:root {
+  --ifm-color-primary: #235c54;
+  --ifm-color-primary-dark: #1e514a;
+  --ifm-color-primary-darker: #1b4942;
+  --ifm-color-primary-darkest: #143c36;
+  --ifm-color-primary-light: #2e7165;
+  --ifm-color-primary-lighter: #367e70;
+  --ifm-color-primary-lightest: #478c7f;
+  --ifm-font-family-base: 'Inter', system-ui, sans-serif;
+  --ifm-heading-font-family: var(--ifm-font-family-base);
+  --ifm-leading: 1.3rem;
+}
+[data-theme='dark'] {
+  --ifm-color-primary: #86c5b9;
+  --ifm-color-primary-dark: #70b9ac;
+  --ifm-color-primary-darker: #63ad9f;
+  --ifm-color-primary-darkest: #4f9b8d;
+  --ifm-color-primary-light: #a2d1c8;
+  --ifm-color-primary-lighter: #b6ded5;
+  --ifm-color-primary-lightest: #c8e6df;
+}
+.markdown table {
+  font-size: 0.94rem;
+}
+.markdown h2 {
+  margin-top: 2.2rem;
+}
+
+@media print {
+  .navbar,
+  .theme-doc-sidebar-container,
+  .theme-doc-toc-mobile,
+  .theme-doc-toc-desktop,
+  .theme-doc-breadcrumbs,
+  .pagination-nav,
+  .theme-doc-footer,
+  footer.footer {
+    display: none !important;
+  }
+
+  .theme-doc-markdown h1,
+  .theme-doc-markdown h2,
+  .theme-doc-markdown h3 {
+    break-after: avoid;
+  }
+}

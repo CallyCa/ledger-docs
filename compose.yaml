@@ -1,0 +1,10 @@
+name: ledger-docs
+
+services:
+  docs:
+    build:
+      context: .
+      args:
+        DOCUSAURUS_URL: "http://localhost:${LEDGER_DOCS_PORT:-3000}"
+    ports:
+      - "127.0.0.1:${LEDGER_DOCS_PORT:-3000}:3000"
